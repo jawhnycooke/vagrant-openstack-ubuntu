@@ -16,7 +16,6 @@ Vagrant.configure('2') do |config|
     os.openstack_volume_url = "https://us-rdu-1.cisco.com:8776/v1/e7e394f0992d47c7ab8342842f573d5c"
     os.tenant_name        = ENV['OS_TENANT_NAME']
     os.sync_method        = 'none'
-    #os.networks           = "fdce48ad-7707-4b53-8fc7-86d1cbf041cc"
     os.ssh_disabled = "true"
     os.keypair_name = "messenger-infra"
 
